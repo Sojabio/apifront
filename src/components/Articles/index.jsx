@@ -8,7 +8,7 @@ const Articles = () => {
  useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3000', {
+      const response = await fetch('https://testapiback.fly.dev', {
         method: 'get',
         headers: {
           // 'Authorization': `Bearer ${jwtToken}`,
