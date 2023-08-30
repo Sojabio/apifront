@@ -20,7 +20,7 @@ function Signin() {
 
     // Effectuer la requête fetch vers le backend Strapi pour l'authentification
     try {
-      const response = await fetch('http://localhost:3000/users/sign_in', {
+      const response = await fetch('https://testapiback.fly.dev/users/sign_in', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
